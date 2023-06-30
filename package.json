@@ -1,0 +1,35 @@
+{
+  "name": "chat-gpt-nodejs-app2",
+  "version": "Speak with the chat gpt.",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "mocha tests/",
+    "start": "yarn node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkamara/chat-gpt-nodejs-app2.git"
+  },
+  "author": "https://github.com/kkamara",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/kkamara/chat-gpt-nodejs-app2/issues"
+  },
+  "homepage": "https://github.com/kkamara/chat-gpt-nodejs-app2",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "openai": "^3.3.0",
+    "sanitize": "^2.1.0",
+    "sequelize": "^6.13.0"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "mocha": "^9.1.4",
+    "open": "^8.2.1"
+  }
+}
